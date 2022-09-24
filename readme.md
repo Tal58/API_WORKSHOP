@@ -17,5 +17,5 @@
 <br>
 <br>
 
-<img src="./DOM.gif" align="left" alt="desktop_version">
+<img src="./API.webp" align="left" alt="desktop_version">
 
