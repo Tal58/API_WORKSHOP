@@ -18,6 +18,8 @@ const getnews = async function () {
 
 }
 
+
+
 const renderNews = (news) => {
     const newlist = document.getElementById("news-list");
     if (isError){
