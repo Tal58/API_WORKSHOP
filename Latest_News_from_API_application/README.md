@@ -35,7 +35,7 @@ At the end of the this project, students will be able to;
 
 <p align="center"> ✍ Happy Coding ⌛ <p>
 
-🔗 To see live version 🎯https://tal58.github.io/JavaScript_DOM_Manipulations/Enter_Task/
+🔗 To see live version 🎯https://tal58.github.io/API_WORKSHOP/Latest_News_from_API_application/
 
 🌐 The desktop and mobile versions of the web page are as follows;🧭
 <br><br>
