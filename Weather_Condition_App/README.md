@@ -6,9 +6,9 @@ Project aims to display current weather data of searched city around the world w
 
 ## Learning Outcomes
 
-At the end of the this project;
+At the end of the this project, students will be able to;
 
-- improve <b>HTML/CSS/JavaScript/DOM and API skills </b> 
+- improve my <b>HTML/CSS/JavaScript/DOM and API skills </b> 
 
 - analyze a problem, create a weather condition app populated with a real weather api.
 
@@ -51,7 +51,7 @@ User story;
 
 <p align="center"> ✍ Happy Coding ⌛ <p>
 
-🔗 To see live version 🎯https://tal58.github.io/API_WORKSHOP/Weather_Condition_App/
+🔗 To see live version 🎯https://tal58.github.io/API_WORKSHOP/Latest_News_from_API_application/
 
 🌐 The desktop and mobile versions of the web page are as follows;🧭
 <br><br>
