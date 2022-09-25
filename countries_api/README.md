@@ -28,6 +28,7 @@ At the end of the this project, students will be able to;
         |----style.css   
         |----apps.js
         |----desktop.gif
+        |----world.jpg
 ```
 
 <p align="center"> ✍ Happy Coding ⌛ <p>
