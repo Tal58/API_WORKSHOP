@@ -51,7 +51,7 @@ User story;
 
 <p align="center"> ✍ Happy Coding ⌛ <p>
 
-🔗 To see live version 🎯https://tal58.github.io/API_WORKSHOP/Latest_News_from_API_application/
+🔗 To see live version 🎯https://tal58.github.io/API_WORKSHOP/Weather_Condition_App/
 
 🌐 The desktop and mobile versions of the web page are as follows;🧭
 <br><br>
