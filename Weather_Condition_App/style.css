@@ -1,0 +1,42 @@
+.card{
+    transition: 1s !important;
+}
+.card:hover{
+    transform: scale(110%) !important;
+}
+body{
+   background: url(./img/0.png);
+   background-repeat: no-repeat;
+   background-size: 96rem 100vh;
+   background-attachment: fixed;
+   align-items: center;     
+}
+#p{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.object {
+    animation: MoveUpDown 1.5s linear infinite;
+    position: relative;
+    font-size: 1.4rem;
+    width: 50%;
+    margin: auto;
+}
+.object p i {
+    color: red;
+}
+button{
+    background-color: darkgray;
+}
+@keyframes MoveUpDown {
+
+    0%,
+    100% {
+        left: 1vw;
+    }
+
+    50% {
+        left: 3vw;
+    }
+}
+
