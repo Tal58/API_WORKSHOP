@@ -32,23 +32,22 @@ const renderError = () => {
     <img src ="https://www.webtekno.com/images/editor/default/0003/49/8fff46dc4295076015f364b734750fa59d84c5b6.jpeg" alt=""/>
     `
 }
-let allCountry
+let allCountries
 let countryListId = {}
 //to create all options according to the data and sort it
 const selectcountry = (Countries) => {
-    allCountry = Countries
-    console.log(allCountry)
+    allCountries = Countries
     let countryList = []
-   
-    // console.log(Countries.length)
+ 
     //sort the list of countries and collect id of all countries
     for (let i = 0; i < Countries.length; i++) {
         countryList.push(Countries[i].name.common)
         countryListId[Countries[i].name.common] = i
     }
     console.log(countryListId)
-    //to create all options
+    //to sort it alphabetically
     countryList = countryList.sort()
+    //to create all options
     for (let i = 0; i < countryList.length; i++) {
         document.querySelector("#countries").appendChild(document.createElement("option"))
         document.querySelector("#countries").lastChild.innerHTML = countryList[i]
@@ -57,7 +56,7 @@ const selectcountry = (Countries) => {
 //event listener
 document.querySelector("#countries").addEventListener("change", (event) => {
     //instead of new fetc ı used received data named allcountry
-    renderCountries(allCountry[countryListId[event.target.value]])
+    renderCountries(allCountries[countryListId[event.target.value]])
 })
 
 
