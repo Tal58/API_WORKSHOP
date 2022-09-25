@@ -26,7 +26,7 @@ At the end of the this project, students will be able to;
 |----solution
         |----index.html  
         |----style.css   
-        |----index.js
+        |----apps.js
         |----newsbackground.jpg
         |----chess.jpg
         |----mobile.gif
