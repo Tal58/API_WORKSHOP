@@ -1,5 +1,5 @@
 
-# Countries Info by using API (JS-04)
+# Countries Info by using API
 
 ## Description
 Project aims to display current informations of specified country around the world with fetching Api data.
