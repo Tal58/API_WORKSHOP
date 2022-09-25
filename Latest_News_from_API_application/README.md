@@ -1,5 +1,5 @@
 
-# Latest_News_App (JS-04)
+# Latest_News_App
 
 ## Description
 Project aims to display current news data of specified country around the world with fetching news Api data.
