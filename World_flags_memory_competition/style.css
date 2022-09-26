@@ -1,0 +1,44 @@
+body{
+    background-image: url(./bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    font-weight: 700;
+    color: white;
+}
+h1{
+    font-weight: 800;
+}
+#screen{
+    border: 2px solid red; 
+    height: 30vh;
+}
+.combo-check{
+    font-size: 1.5rem;
+}
+.hiddenP{
+    display: none;
+}
+.comboP{
+    font-size: 1.5rem;
+}
+.object {
+    font-size: 1.4rem;
+    width: 50%;
+    margin: auto;
+}
+.object p i {
+    color: red;
+}
+.p{
+    font-size: 1.5rem;
+}
+.button{
+    border-radius: 0.5rem;
+    transition: 1.2s;
+}
+.button:hover{
+    transform: scale(90%);
+}
+.hr{
+    border: 5px solid red;
+}
