@@ -8,7 +8,7 @@ Project aims to make a game to check your memory about world flags by using API.
 
 At the end of the this project;
 
-- improve <b>HTML/CSS/JS and API<b> abilities.
+- improve HTML/CSS/JS and API abilities.
 
 - analyze a problem, create a original news app.
 
@@ -37,7 +37,7 @@ At the end of the this project;
 
 <p align="center"> ✍ Happy Coding ⌛ <p>
 
-🔗 To see live version 🎯https://tal58.github.io/API_WORKSHOP/countries_api/
+🔗 To see live version 🎯https://tal58.github.io/API_WORKSHOP/World_flags_memory_competition/
 
 🌐 The desktop version of the web page is as follows;🧭
 <br><br>
