@@ -12,12 +12,9 @@ At the end of the this project;
 
 - analyze a problem, create a original news app.
 
-- demonstrate their knowledge of algorithmic design principles.
+- demonstrate knowledge of algorithmic design principles.
 
-   
-## Problem Statement
 
-- Design a latest news page following the design and populate data for specified country.
 
 ## Project Skeleton 
 
@@ -39,7 +36,7 @@ At the end of the this project;
 
 🔗 To see live version 🎯https://tal58.github.io/API_WORKSHOP/World_flags_memory_competition/
 
-🌐 The desktop version of the web page is as follows;🧭
+🌐 The desktop and mobile versions of the web page are as follows;🧭
 <br><br>
 
 ## 🖥️Desktop version
