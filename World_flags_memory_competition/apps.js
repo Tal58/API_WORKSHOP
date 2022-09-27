@@ -118,7 +118,7 @@ function game2(e) {
         clear2()
         game()
         score += 5
-        scoreP.innerHTML = `<i class="fa-regular fa-chess-king"></i> Score: ${score}`
+        scoreP.innerHTML = `<i class="fa-regular fa-chess-queen"></i> Score: ${score}`
         if (mistake > 1) {
             mistakeP.innerHTML = `<i class="fa-regular fa-chess-knight"></i> Mistakes: ${mistake}`
         } else {
