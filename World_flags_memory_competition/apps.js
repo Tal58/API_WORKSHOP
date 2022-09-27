@@ -128,9 +128,9 @@ function game2(e) {
     } else {
         mistake++
         if (mistake > 1) {
-            mistakeP.innerHTML = `<i class="fa-regular fa-chess-queen"></i> Mistakes: ${mistake}`
+            mistakeP.innerHTML = `<i class="fa-regular fa-chess-knight"></i> Mistakes: ${mistake}`
         } else {
-            mistakeP.innerHTML = `<i class="fa-regular fa-chess-queen"></i> Mistake: ${mistake}`
+            mistakeP.innerHTML = `<i class="fa-regular fa-chess-knight"></i> Mistake: ${mistake}`
         }
         if (mistake == 4) {
             screenP.innerHTML = `You failed <i class="fa-regular fa-face-frown fa-2x"></i>`
