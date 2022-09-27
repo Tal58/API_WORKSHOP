@@ -201,4 +201,5 @@ async function close() {
     });
     screen.style.backgroundColor = await myPromise
     screenP.innerText = "" 
+    document.querySelector(".container").firstChild.remove()
 }
