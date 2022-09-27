@@ -9,7 +9,6 @@ const hiddenP = document.querySelector(".hiddenP");
 const scoreP = document.querySelector(".score")
 const mistakeP = document.querySelector(".mistake")
 let highScore = localStorage.getItem("highScore") || 0;
-console.log(typeof highScore)
 document.querySelector(".highScore").innerHTML = `<i class="fa-regular fa-chess-king"></i> High Score: ${highScore}`
 let allCountry;
 let score = 0;
@@ -172,6 +171,15 @@ async function end(){
     document.querySelector(".again").addEventListener("click", ()=>{
         window.location.reload()  
     })
+    //on off button
+document.querySelector(".btn-off").addEventListener("click", ()=>{
+    if (screen.style.backgroundColor == "rgb(110, 105, 105)"){
+        window.location.reload()
+    }else{
+        close()
+    }
+
+})
 }
 
 //on off button
