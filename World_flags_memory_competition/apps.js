@@ -171,15 +171,7 @@ async function end(){
     document.querySelector(".again").addEventListener("click", ()=>{
         window.location.reload()  
     })
-    //on off button
-document.querySelector(".btn-off").addEventListener("click", ()=>{
-    if (screen.style.backgroundColor == "rgb(110, 105, 105)"){
-        window.location.reload()
-    }else{
-        close()
-    }
 
-})
 }
 
 //on off button
