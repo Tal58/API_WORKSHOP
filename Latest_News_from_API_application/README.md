@@ -10,7 +10,7 @@ At the end of the this project, students will be able to;
 
 - analyze a problem, create a original news app.
 
-- demonstrate their knowledge of algorithmic design principles.
+- demonstrate knowledge of algorithmic design principles.
 
    
 ## Problem Statement
