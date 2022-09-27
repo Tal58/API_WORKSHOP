@@ -160,7 +160,7 @@ function countryNamegenerator(name) {
         if (checkObje[x] > 1) {
             //find the dublicate element
             indexno = newArr.indexOf(x)
-            //delete element and instead of position we generate one more country name
+            //delete element and instead of its position we generate one more country name
             newArr.splice(indexno,1, allCountry[Math.floor(Math.random() * 250)].name.common)    
         }
     }return newArr
