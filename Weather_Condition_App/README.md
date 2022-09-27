@@ -12,7 +12,7 @@ At the end of the this project;
 
 - analyze a problem, create a weather condition app populated with a real weather api.
 
-- demonstrate their knowledge of algorithmic design principles.
+- demonstrate knowledge of algorithmic design principles.
 
 
 ## Project Skeleton 
