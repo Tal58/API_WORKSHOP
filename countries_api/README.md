@@ -10,12 +10,7 @@ At the end of the this project, students will be able to;
 
 - analyze a problem, create a original news app.
 
-- demonstrate their knowledge of algorithmic design principles.
-
-   
-## Problem Statement
-
-- Design a latest news page following the design and populate data for specified country.
+- demonstrate knowledge of algorithmic design principles.
 
 ## Project Skeleton 
 
