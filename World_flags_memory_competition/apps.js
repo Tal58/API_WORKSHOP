@@ -9,6 +9,7 @@ const hiddenP = document.querySelector(".hiddenP");
 const scoreP = document.querySelector(".score")
 const mistakeP = document.querySelector(".mistake")
 let highScore = localStorage.getItem("highScore") || 0;
+console.log(typeof highScore)
 document.querySelector(".highScore").innerHTML = `<i class="fa-regular fa-chess-king"></i> High Score: ${highScore}`
 let allCountry;
 let score = 0;
@@ -79,14 +80,11 @@ const game = () => {
     const randomNumber = Math.floor(Math.random() * 250)
     //randomly made 4 name from all countryList
     hiddenP.innerText = allCountry[randomNumber].name.common
-    console.log(hiddenP.innerText)
     randomList = [allCountry[randomNumber].name.common, allCountry[Math.floor(Math.random() * 250)].name.common,allCountry[Math.floor(Math.random() * 250)].name.common,allCountry[Math.floor(Math.random() * 250)].name.common]
-    console.log(randomList)
     //to shuffle randomList
     randomList = randomList.map(value => ({ value, sort: Math.random() }))
     .sort((a, b) => a.sort - b.sort)
     .map(({ value }) => value)
-    console.log(randomList)
     //img source
     flag.src = `${allCountry[randomNumber].flags.png}`
     //create a new div
@@ -113,11 +111,9 @@ const game = () => {
 //gamepart2 start playing
 function game2(e){
     if(e == hiddenP.innerText){
-        console.log("yes") 
         clear2()       
         game()
         score +=5
-        console.log(score)
         scoreP.innerHTML = `<i class="fa-regular fa-chess-king"></i> Score: ${score}`
         if (mistake>1){
             mistakeP.innerHTML = `<i class="fa-regular fa-chess-queen"></i> Mistakes: ${mistake}`
@@ -126,7 +122,6 @@ function game2(e){
         }
      
     }else{
-        console.log("no")
         mistake++
         if (mistake>1){
             mistakeP.innerHTML = `<i class="fa-regular fa-chess-queen"></i> Mistakes: ${mistake}`
@@ -135,7 +130,7 @@ function game2(e){
         }
         if (mistake ==4){
             screenP.innerHTML = `You failed <i class="fa-regular fa-face-frown fa-2x"></i>`
-            if (score>highScore){
+            if (score>Number(highScore)){
                 localStorage.setItem("highScore", score);
                 document.querySelector(".highScore").innerHTML = `<i class="fa-regular fa-chess-king"></i> High Score: ${score}`  
             }
@@ -175,15 +170,12 @@ async function end(){
     }
     createButton()
     document.querySelector(".again").addEventListener("click", ()=>{
-        console.log("merhaba")
-        window.location.reload()
-        
+        window.location.reload()  
     })
 }
 
 //on off button
-document.querySelector(".button").addEventListener("click", ()=>{
-    console.log(screen.style.backgroundColor)
+document.querySelector(".btn-off").addEventListener("click", ()=>{
     if (screen.style.backgroundColor == "rgb(110, 105, 105)"){
         window.location.reload()
     }else{
