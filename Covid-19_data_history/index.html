@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="./disease.css">
+
+<body>
+    <title>Open Disease</title>
+    </head>
+
+    <body>
+        <div class="container text-center my-5 mx-auto">
+            <div class="row d-flex justify-content-evenly">
+                <h1>Covid-19 History </h1>
+                <h3 class="lastDate">Last Update:</h3>
+                <form action="" class="row justify-content-center">
+                    <div class="date1 col-md-3 my-3">
+                        <label for="initialdate">Initial Date</label>
+                        <input type="date" value="2020-01-22" id="initialdate" name="initialdate">
+                    </div>
+                 <div class="date2 col-md-3 my-3 text-center">
+                    <label for="finaldate">Final Date</label>
+                    <input type="date" data-date-format="DD MMMM YYYY" name="finaldate" id="finaldate">
+                 </div>
+                <div class="submit">
+                    <button type="button" class="btn btn-danger submit my-3">Submit</button>
+                </div>
+                   
+                </form>
+                
+                <!-- <h3 class="cases">Total cases:</h3>
+                <h3 class="recovered">Total number of recovered people for specified dates:</h3>
+                <h3 class="deaths">Total number of deaths for specified dates:</h3> -->
+                <div class="graphs row justify-content-center gap-3">
+                    <div id="myPlot" style="max-width:350px; width: 88%;" class="col-md-5 my-1 "></div>
+                    <div id="myPlot2" style="max-width:350px; width: 88%;" class="col-md-5 my-1 "></div>
+                    <div id="myPlot3" style="max-width:350px; width: 88%;" class="col-md-5 my-1 "></div>
+                </div>
+             
+
+
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+            crossorigin="anonymous"></script>
+        <script src="./apps.js"></script>
+    </body>
+
+</html>

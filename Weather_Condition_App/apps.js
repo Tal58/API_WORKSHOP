@@ -31,6 +31,9 @@ input.addEventListener("keydown", (e) => {
         submit.click()
     }
 })
+
+
+
 //to fetch data from openweathermap.org
 const fetchdata = (input) => {
     fetch(`https://api.openweathermap.org/data/2.5/weather?q=${input.toLowerCase()}&appid=2270405c001a3dbac979c0604b27d8f3`).then((response) => {
