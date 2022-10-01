@@ -8,9 +8,9 @@ Project aims to display history of Covid-19 data in the world with fetching dise
 
 At the end of the this project;
 
-- improve <b>HTML/CSS/JavaScript/DOM and API skills </b> 
+- improve <b>HTML/CSS/JavaScript/DOM and API skills. </b> 
 
-- improve Plotly.js charting library </b> 
+- improve <b>Plotly.js charting library. </b> 
 
 - analyze a problem, data display app populated with a real covid api.
 
